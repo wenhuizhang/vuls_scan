@@ -114,7 +114,7 @@ install_vuls() {
 	chmod 700 /var/log/vuls
 	mkdir -p $GOPATH/src/github.com/future-architect;
 	cd $GOPATH/src/github.com/future-architect;
-	git clone https://github.com/future-architect/vuls.git;
+	git clone https://github.com/CI-CD-Automation/vuls.git;
 	cd vuls;
 	make install;
 
